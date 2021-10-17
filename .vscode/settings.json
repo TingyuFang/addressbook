@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "contacts.h": "c",
+        "xstring": "c"
+    }
+}
