@@ -1,19 +1,19 @@
 #include<string.h>
-#define MAX_NAME 10
-#define MAX_TELNUM 12
-#define MAX_ADRESS 20
 typedef struct
 {
-    char name[MAX_NAME];
-    char telnum[MAX_TELNUM];
-    char adress[MAX_ADRESS];
+    char *name;
+    char *telnum;
+    char *address;
 }contacts;
 
-contacts create_contact(char name[], char telum[], char adress[]){
+contacts create_contact(char *name, char *telnum, char *address){
     contacts contact;
+    contact.name = "";
+    contact.telnum = "";
+    contact.address = "";
     strcpy(contact.name, name);
-    strcpy(contact.telnum, telum);
-    strcpy(contact.adress, adress);
+    strcpy(contact.telnum, telnum);
+    strcpy(contact.address, address);
     return contact;
 }
 

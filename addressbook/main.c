@@ -1,9 +1,11 @@
 #include "contacts.h"
 #include "operations.h"
 #include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<sqlite3.h>
 int main(int argc, char const *argv[])
 {
-    
     loop();
     // contacts contact;
     // contact = create_contact("Tingyu", "15906669899", "Zhejiang");

@@ -1,6 +1,11 @@
 {
     "files.associations": {
         "contacts.h": "c",
-        "xstring": "c"
-    }
+        "xstring": "c",
+        "stdio.h": "c",
+        "sqlite3.h": "c",
+        "stdarg.h": "c",
+        "stdlib.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }

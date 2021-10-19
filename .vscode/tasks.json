@@ -13,7 +13,7 @@
                 "-Wall", 
                 "-static-libgcc",   
                 "-fexec-charset=GBK",
-                "-std=c11",  //写c++换成c++标准
+                "-std=c17",  //写c++换成c++标准
             ],
             "group": {
                 "kind": "build",
